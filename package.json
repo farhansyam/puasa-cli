@@ -1,0 +1,29 @@
+{
+  "name": "puasa-cli",
+  "version": "1.0.0",
+  "description": "🌙 CLI untuk jadwal sahur & buka puasa Ramadan - Made in Indonesia",
+  "main": "index.js",
+  "bin": {
+    "puasa-cli": "./bin/puasa-cli.js"
+  },
+  "scripts": {
+    "start": "node bin/puasa-cli.js"
+  },
+  "keywords": [
+    "ramadan",
+    "puasa",
+    "sahur",
+    "buka puasa",
+    "jadwal",
+    "cli",
+    "indonesia"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "chalk": "^4.1.2",
+    "figlet": "^1.7.0",
+    "cli-table3": "^0.6.3"
+  }
+}
