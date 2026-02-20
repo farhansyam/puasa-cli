@@ -1,6 +1,6 @@
 {
   "name": "puasa-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "🌙 CLI untuk jadwal sahur & buka puasa Ramadan - Made in Indonesia",
   "main": "index.js",
   "bin": {
