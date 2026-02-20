@@ -130,7 +130,8 @@ async function main() {
         const sahur = formatWaktu(timings.Fajr);
         const buka = formatWaktu(timings.Maghrib);
 
-        const hariRamadan = parseInt(hijri.day);
+        // Kurangi 1 hari: API pakai penetapan internasional, Indonesia (Kemenag) mulai 1 hari lebih lambat
+        const hariRamadan = Math.max(1, parseInt(hijri.day) - 1);
         const bulanHijri = hijri.month.en;
         const tahunHijri = hijri.year;
         const tanggalMilad = gregorian.date; // DD-MM-YYYY
